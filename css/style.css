@@ -1,0 +1,291 @@
+html{
+	width: 100%;
+	font-family: "微軟正黑體";
+	font-size: 20px;
+	background-color:#EFE6EE ; 
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "微軟正黑體", sans-serif;
+}
+
+.keyvision{
+	width: 100%;
+	z-index: -1;
+}
+
+
+
+.banner__nav{
+	width: 100%;
+	display: flex;
+	flex-direction: row-reverse;
+	padding-right:22px ;
+}
+
+.nav{
+	width: 244px;
+	height: 28px;
+	position: absolute;
+	z-index: 1;
+	margin-top: -4%;
+	font-size: 0.8rem
+
+}
+
+.nav__h2{
+	margin-right: 31px;
+	margin-left: 31px;
+}
+
+
+.why__intro{
+	font-family: "微軟正黑體";
+	background-color:#EFE6EE;
+	width:100%;
+	padding-left: 3.5%;
+	padding-top: 42px;
+}
+
+.why__intro__title{
+	width: 307px;
+	height: 75px;
+	display: flex;
+	background-color: #141430;
+}
+
+.why__intro__title__icon{
+	width: 27px;
+	height: 38px;
+	margin: 18px 21px 20px 20px;
+}
+
+.why__intro__title__line{
+	color: white;
+	height: 38px;
+	border-left:1px solid;
+	margin-top:18px;
+}
+
+.why__intro__title__text{
+	color: white;
+	line-height: 26px;
+	font-size: 1.25rem;
+	margin: 11px 0 0 35px;
+}
+
+.why__intro__main{
+	width: 100%;
+	padding:20px 0 10px 0;
+	line-height: 28px;
+	letter-spacing:1px;
+	
+}
+
+.why__main{
+	width: 100%;
+	font-family: "微軟正黑體";
+	background-color:#EFE6EE;
+}
+
+.why__main__year{
+	background-color: #DDCEDA;
+	padding-top: 0.1%;
+	display: flex;
+}
+
+.why__main__year__left{
+	width:50%;
+	padding:3.6% 2.6% 3.6% 3.5%;
+}
+
+.why__main__year__left__title{
+	display: flex;
+}
+
+.why__main__year__left__title__square{
+	color: #8B483F;
+	height: 36px;
+	border-left:16px solid;
+	margin-right: 3%;
+}
+
+.why__main__year__left__title__text{
+	font-size: 1.25rem;
+	width:86%;
+}
+
+.why__main__year__right{
+	width:50%;
+}
+
+.why__main__year__right__photo{
+	width:100%;
+	padding:8% 8% 8% 8%;
+}
+
+.why__main__week{
+	background-color: #EFE6EE;
+	padding-top: 0.1%;
+	display: flex;
+}
+
+.why__main__week__right{
+	width:50%;
+	padding:3.6% 2.6% 3.6% 3.5%;
+}
+
+.why__main__week__right__title{
+	display: flex;
+}
+
+.why__main__week__right__title__square{
+	color: #8B483F;
+	height: 36px;
+	border-left:16px solid;
+	margin-right: 3%;
+}
+
+.why__main__week__right__title__text{
+	font-size: 1.25rem;
+	width:86%;
+	
+}
+
+.why__main__week__left{
+	width:50%;
+}
+
+.why__main__week__left__photo{
+	width:100%;
+	padding:8% 8% 8% 8%;
+}
+
+
+.why__main__apple{
+	background-color: #DDCEDA;
+	padding-top: 0.1%;
+	display: flex;
+}
+
+.why__main__apple__left{
+	width:50%;
+	padding:3.6% 2.6% 3.6% 3.5%;
+}
+
+.why__main__apple__left__title{
+	display: flex;
+}
+
+.why__main__apple__left__title__square{
+	color: #8B483F;
+	height: 36px;
+	border-left:16px solid;
+	margin-right: 3%;
+}
+
+.why__main__apple__left__title__text{
+	font-size: 1.25rem;
+	width:86%;
+	
+}
+
+.why__main__apple__right{
+	width:50%;
+}
+
+.why__main__apple__right__photo{
+	width:100%;
+	padding:8% 8% 8% 8%;
+}
+
+
+.holiday__intro{
+	font-family: "微軟正黑體";
+	background-color:#EFE6EE;
+	width:100%;
+	padding-left: 3.5%;
+	padding-top: 84px;
+}
+
+.holiday__intro__title{
+	width: 307px;
+	height: 75px;
+	display: flex;
+	background-color: #141430;
+}
+
+.holiday__intro__title__icon{
+	width: 27px;
+	height: 38px;
+	margin: 18px 21px 20px 20px;
+}
+
+.holiday__intro__title__line{
+	color: white;
+	height: 38px;
+	border-left:1px solid;
+	margin-top:18px;
+}
+
+.holiday__intro__title__text{
+	color: white;
+	line-height: 26px;
+	font-size: 1.25rem;
+	margin: 11px 0 0 35px;
+}
+
+.holiday__intro__main{
+	width: 100%;
+	padding:20px 0 10px 0;
+	line-height: 28px;
+	letter-spacing:1px;
+}
+
+.holiday__main{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #DDCEDA;
+}
+
+.holiday__main__1{
+	width:243; height:247;
+	padding: 1.72% 0.86% 1.72% 0.86%;
+}
+
+.holiday__main__2{
+	width:243; height:247;
+	padding: 1.72% 0.86% 1.72% 0.86%;
+}
+
+.holiday__main__3{
+	width:243; height:247;
+	padding: 1.72% 0.86% 1.72% 0.86%;
+}
+
+.footer{
+	width: 100%;
+	height: 58px;
+	display: flex;
+	flex-direction: row-reverse;
+	background-color: #141430;
+	padding-right:3.5% ;
+}
+
+.footer__text{
+	color: white;
+	font-size: 0.75rem;
+	line-height: 58px;
+	padding:0 5px 0 5px;
+}
+
+.footer__icon{
+	display: flex;
+	align-items: center;
+}
+
+.footer__icon__fb{
+	padding:0 5px 0 3px;
+}
